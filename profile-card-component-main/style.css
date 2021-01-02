@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(36, 171, 224);
+  background-image: url("images\bg-pattern-top.svg");
+  background-image: url("images\bg-pattern-bottom.svg");
+}
+.master {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  height: 500px;
+  margin: 5% auto;
+  text-align: center;
+  width: 350px;
+}
+.svg{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.pic{
+  border-radius: 100%;
+  border: 5px solid white;
+  margin-top: -55px;
+}
+.main-text{
+  font-size: 1.5em;
+}
+.subdiv{
+  display: flex;
+  flex-direction: row;
+  padding: 0 15% 0 15%;
+}
+.sub {
+  padding: 10px
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
